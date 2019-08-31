@@ -22,6 +22,25 @@ html{
 span{
 	color: #11749e;
 }
+
+.scroll-up{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	background: #138cc0;
+	position: fixed;
+	bottom: 15px;
+	right: 10px;
+	display: none;
+	justify-content: center;
+	align-items: center;
+	z-index: 99;
+}
+
+.scroll-up:hover{
+	background: #0f6083;
+	cursor: pointer;
+}
 /* ================================== HEADER ================================== */
 
 header{
@@ -121,6 +140,7 @@ header{
 }
 
 .navbar{
+	
 	border-bottom: 1px solid rgba(117, 117, 117, .8);
 }
 
@@ -833,6 +853,7 @@ header{
 	width: 15%;
 	height: 50px;
 	font-size: 1.2rem;
+	margin-bottom: 20px;
 }
 
 .form .submit_btn:hover{
