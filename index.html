@@ -14,7 +14,6 @@
 	<div class="scroll-up">
 		<i class="fas fa-arrow-up"></i>
 	</div>
-
 	<header>
 		<div class="mobile_menu">
 			<a href="#"><div class="logo"></div></a>
@@ -233,6 +232,18 @@
 		<p>© 2016 PSDfreebies.com – All Right Reserved</p>
 		<p>Design by: PSDFreebies.com</p>
 	</footer>
-<script src="script/main.js"></script>
+	<script src="script/main.js"></script>
+	<script>
+		//Инициализация карты
+		var myMap;
+		ymaps.ready(init);
+
+		function init() {
+			myMap = new ymaps.Map("map", {
+				center: [55.76, 37.64],
+				zoom: 10
+			});
+		}
+	</script>
 </body>
 </html>
